@@ -7,8 +7,8 @@ import os
 import re
 
 # Caminhos
-modelo_qpt = r"E:/Projeto GeoBSF/Access/Tmax/2021 a 2040/SSP245/Modelo Tmax BSF.qpt"
-saida = r"E:/Modelos_Layout"
+modelo_qpt = r"Diretório onde está o modelo de layout.qpt"
+saida = r"Diretório para o qual se quer exportar os layouts prontos"
 os.makedirs(saida, exist_ok=True)
 
 # Meses
